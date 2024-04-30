@@ -1,0 +1,223 @@
+html {
+  background-color: rgb(25,25,25);
+}
+
+.headerDiv {  
+  width: auto; height: 130px;
+  padding: 8px 12px;
+  background-color: rgb(17, 17, 17);
+}
+
+
+.playfair-display-uniquifier {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+
+.mainText {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, rgb(255, 219, 219), rgb(207, 174, 174), rgb(221, 175, 175), rgb(122, 91, 91));
+  letter-spacing: 0.7px;
+  font-family: "Playfair Display"; font-weight: 600; font-size: 100px;
+  text-align: center;
+  margin-top: -139px;
+  margin-right: 65px;
+}
+
+.invert {
+  filter: invert(100%);
+  padding-right: 4px;
+}
+
+.logo {
+  width: 65px; height: 65px;
+  color: black;
+  background-color: rgba(207, 174, 174, 0);
+}
+
+.menu {
+  width: 65px; height: 65px;
+  background-color: rgb(80, 27, 27);
+  border: 1px solid #f87c00;
+}
+
+/* .socsety {width: 220px; height: 30px;
+  padding: 8px 12px;
+  position: relative;
+  top: 1px;
+  right: -1698px;
+  position:relative;
+} */
+
+ /* ЭТА ВСЕ ДЛЯ МЕНЮШКИ ПРИКАЛЫ */
+.page{
+  background-color: rgb(17,17,17);
+  margin-top: auto;
+}
+
+.page a {
+  /* font-family: Cruinn; */
+  color:rgb(218, 218, 218);
+  /* color:rgb(236, 236, 236); */
+  text-decoration: none;
+  font-family: "Playfair Display"; font-weight: bold; font-size: 18px;
+  transition: 0.5s;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.page a:hover {
+  color: rgb(219, 194, 194);
+}
+
+.row {
+  display: flex; /*ФЛЕКСИТ Я ХЗ*/
+}
+.space-between{
+  justify-content: space-between;    /*ЧТОБЫ РАСПЛАСТАЛОСЬ НА ВСЮ ДЛИНУ САЙТА*/
+}
+
+/*ВЫДВИЖНОЕ МЕНЮ НАЧИНАЕЦА*/
+
+.menuButton { 
+  margin-top: -129px;
+  margin-right: 200px;
+  padding-left: 10px;
+}
+
+.sidenav {
+  height: 100%; /* 100% Полный рост */
+  width: 0; /* 0 ширина - измените это с помощью JavaScript */
+  position: fixed; /* Оставаться на месте */
+  z-index: 1; /* Оставайтесь на вершине */
+  top: 0; /* Оставайтесь на вершине */
+  left: 0;
+  background-image: linear-gradient(180deg, #111111, #000000); 
+  overflow-x: hidden; /* Отключить горизонтальную прокрутку */
+  padding-top: 60px; /* Поместите содержимое 60px сверху */
+  transition: 0.5s; /* 0.5 секунд эффект перехода, чтобы скользить в sidenav */
+  }
+  
+  /* Ссылки в меню навигации */
+.sidenav a {
+  padding:2px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+  
+  /* При наведении курсора мыши на навигационные ссылки измените их цвет */
+.sidenav a:hover {
+  color: #727272;
+}
+  
+  /* Положение и стиль кнопки закрытия (верхний правый угол) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+  /* Стиль содержимого страницы - используйте это, если вы хотите переместить содержимое страницы вправо при открытии боковой навигации */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+  
+  /* На небольших экранах, где высота меньше 450px, измените стиль sidenav (меньше отступов и меньший размер шрифта) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.all div{
+  background-color: #f87c00;
+
+  width: 500px;
+  height: 500px;
+}
+
+.main{
+  width: 1300px; 
+  height: 3000px;
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  border: 2px dashed rgb(255, 219, 219);
+}
+
+.container{
+  width: 1300px; 
+  height: 3000px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  background-color: rgb(10, 10, 10);
+  border: 2px dashed rgb(255, 219, 219);
+}
+
+.content-text{
+  margin-top: 60px;
+  margin-left: 60px;
+  padding-left: 32px;
+  padding-top: 8px;
+  padding-bottom: 9
+  px ;
+  /* padding-right: 600px; */
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  justify-content: space-between;
+  display: flex;
+  max-width: 700px;
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  border-radius: 15px;
+  border: 2px dashed rgb(240, 237, 237);
+}
+
+.content-img-right {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top:100px
+
+ 
+}
+
+.content-img-left{
+  padding-right: 80px;
+  padding-left: 50px;
+  padding-top: 85px;
+  float: left;
+  display: inline-block;
+}
+
+.right{
+  float: right;
+  margin-right: 60px;
+}
+
+.img{
+  width: 270px;  
+  border-radius: 15px;
+  background-color: Snow;
+  
+}
+
+
+  

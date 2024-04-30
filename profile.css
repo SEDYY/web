@@ -1,0 +1,38 @@
+html {
+    background-color: rgb(25,25,25);
+}
+  
+.header {  
+    width: auto; height: 150px;
+    padding: 8px 12px;
+    background-color: rgb(17, 17, 17);
+}
+
+.headerDiv {
+    width: auto; height: 150px;
+    position: relative;
+}
+  
+  
+.playfair-display-uniquifier {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.paw { 
+    /* display: table-cell; */
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0;
+}
+
+.notificButton img {
+    filter: invert(100%);
+    width: 30px;
+}
+
+.notificButton {
+    vertical-align: auto;
+}
