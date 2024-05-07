@@ -21,7 +21,6 @@ html {
     height: 150px;
     position: absolute;
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
     align-items: center;
     
@@ -63,7 +62,7 @@ html {
 .headerAva {
     width: 100px;
     height: 100px;
-
+    padding:40px;
 }
 
 .headerNick p {
@@ -76,4 +75,8 @@ html {
     align-items: center;
     width: fit-content;
     height: fit-content;
+}
+.avaArrow {
+   
+    padding:25px;
 }
