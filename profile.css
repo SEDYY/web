@@ -12,12 +12,21 @@ html {
 .headerDiv {
     width: auto; height: 150px;
     position: relative;
+   
+
+  
+}
+
+.headerPanel {
+    right: 0px;
+    width: 700px;
+    height: 150px;
+    position: absolute;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
-
-  
+    
 }
 
 .playfair-display-uniquifier {
@@ -39,7 +48,7 @@ html {
 
 }
 
-.notificButton{
+.notificButton {
     text-align: center;
     width: 100%; height: 100%;
     justify-content: center;
@@ -48,7 +57,7 @@ html {
     height: fit-content;
 }
 
-.headerAva img{
+.headerAva img {
     width: 100px;
     height: 100px;
 
@@ -56,18 +65,18 @@ html {
 
 }
 
-.headerAva{
+.headerAva {
     width: 100px;
     height: 100px;
   
 }
 
-.headerNick p{
+.headerNick p {
     color: aliceblue;
   
 }
 
-.headerNick{
+.headerNick {
     text-align: center;
     justify-content: center;
     align-items: center;
