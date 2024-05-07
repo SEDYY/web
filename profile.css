@@ -12,9 +12,7 @@ html {
 .headerDiv {
     width: auto; height: 150px;
     position: relative;
-   
-
-  
+ 
 }
 
 .headerPanel {
@@ -60,20 +58,16 @@ html {
 .headerAva img {
     width: 100px;
     height: 100px;
-
- 
-
 }
 
 .headerAva {
     width: 100px;
     height: 100px;
-  
+
 }
 
 .headerNick p {
     color: aliceblue;
-  
 }
 
 .headerNick {
