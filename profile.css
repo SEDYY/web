@@ -6,14 +6,20 @@ html {
     width: auto; height: 150px;
     padding: 8px 12px;
     background-color: rgb(17, 17, 17);
+    
 }
 
 .headerDiv {
     width: auto; height: 150px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+
+  
 }
-  
-  
+
 .playfair-display-uniquifier {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
@@ -22,8 +28,6 @@ html {
 }
 
 .paw { 
-    /* display: table-cell; */
-    vertical-align: bottom;
     position: absolute;
     bottom: 0;
 }
@@ -31,8 +35,42 @@ html {
 .notificButton img {
     filter: invert(100%);
     width: 30px;
+ 
+
 }
 
-.notificButton {
-    vertical-align: auto;
+.notificButton{
+    text-align: center;
+    width: 100%; height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.headerAva img{
+    width: 100px;
+    height: 100px;
+
+ 
+
+}
+
+.headerAva{
+    width: 100px;
+    height: 100px;
+  
+}
+
+.headerNick p{
+    color: aliceblue;
+  
+}
+
+.headerNick{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
 }
