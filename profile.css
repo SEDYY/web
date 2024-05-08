@@ -108,6 +108,10 @@ width: ;
     background-color: rgb(255, 72, 0);
     height:670px;
     width: 505px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .block-1 {
@@ -115,6 +119,7 @@ width: ;
     height:310px;
     width: 295px;
     text-align: center;
+    margin-bottom: 50px;
 
    
 }
