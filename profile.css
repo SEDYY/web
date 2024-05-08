@@ -81,16 +81,7 @@ html {
    
     padding:25px;
 }
-.main{
 
-}
-.profile-div{
-height:;
-width: ;
-}
-.blocks-div{
-
-}
 
 .main {
     display: flex;
@@ -105,31 +96,91 @@ width: ;
 }
 
 .profile-block {
-    background-color: rgb(255, 72, 0);
+
+    background-image: linear-gradient(10deg, #1b1919, #333030, #535050);
+    border: 2px dashed rgb(255, 219, 219);
+
+    /* background-image:-o-linear-gradient(); */
     height:670px;
     width: 505px;
     margin-left: 70px;
     margin-right: 50px;
     margin-top: 70px;
     margin-bottom: 70px;
+    border-radius: 50px;
+
+    display: flex;
+    
 }
 
 .block-1 {
+    background-image: linear-gradient(180deg, #363434, #4F4D4D, #4F4D4D);
+    border: 2px dashed rgb(255, 219, 219);
+
     background-color: aqua;
     height:310px;
     width: 295px;
     text-align: center;
     margin-bottom: 50px;
+    border-radius: 50px;
 
    
 }
 
 .block-2 {
+    background-image: linear-gradient(180deg, #1d1d1d, #4F4D4D, #4F4D4D);
+    border: 2px dashed rgb(255, 219, 219);
+
     background-color: rgb(0, 255, 13);
     height:310px;
     width: 295px;
     text-align: center;
+    border-radius: 50px;
     
 }
+
+.status p {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;  
+   
+  
+    
+
+}
+
+.status {
+    width: fit-content; 
+    height: fit-content;
+    margin-left: 40px;
+    margin-top: 9px;
+    
+}
+
+.contact {
+
+}
+.socsety {
+    
+}
+
+.ava {
+    left:0; 
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 35px;
+    margin-top: 35px;
+
+
+}
+
+.ava img {
+    width:167px;
+    height:167px;
+    
+}
+   
+   
 
 
