@@ -96,6 +96,10 @@ width: ;
     display: flex;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
+    width:990px;
+    height:810px;
+    background-color: black;
     
 
 }
@@ -111,6 +115,8 @@ width: ;
     height:310px;
     width: 295px;
     text-align: center;
+
+   
 }
 
 .block-2 {
@@ -118,6 +124,7 @@ width: ;
     height:310px;
     width: 295px;
     text-align: center;
+    
 }
 
 
